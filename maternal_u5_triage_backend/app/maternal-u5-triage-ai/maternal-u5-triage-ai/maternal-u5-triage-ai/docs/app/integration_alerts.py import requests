@@ -1,0 +1,18 @@
+API_URL = "https://your-cloud-run-endpoint/predict"
+
+def send_patient_data(patient_features):
+    payload = {"features": patient_features}
+    response = requests.post(API_URL, json=payload)
+    return response.json()
+
+def trigger_alert(result):
+    if result["triage_level"] in ["HIGH RISK", "CRITICAL"]:
+        print("ALERT: Patient requires immediate attention!")
+        print(result)
+    else:
+        print("Patient risk level:", result["triage_level"])
+
+if __name__ == "__main__":
+    example_patient = [38,1,0,1,0,2.5]
+    result = send_patient_data(example_patient)
+    trigger_alert(result)
