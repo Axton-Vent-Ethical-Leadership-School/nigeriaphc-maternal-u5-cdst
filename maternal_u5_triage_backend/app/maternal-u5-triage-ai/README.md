@@ -371,6 +371,56 @@ These safeguards ensure the system can be responsibly deployed in real-world hea
 └───────────────────────────┘
 This architecture enables the MaternalU5Triage system to function as a real-time AI-powered maternal health triage assistant.
 ## 7. Deployment & Open Source
+## 8. Integration & Alerts
+
+The MaternalU5Triage AI system integrates predictive model outputs directly into clinical applications to provide real-time decision support and actionable alerts.
+
+### Risk Score Notifications
+
+• Patient risk scores are automatically calculated when maternal or under-five patient data is submitted.  
+• Risk levels (LOW, MODERATE, HIGH, CRITICAL) are communicated via:
+
+  - Mobile app notifications for health workers  
+  - Web dashboards for hospital staff
+
+### Clinician Dashboard
+
+A central dashboard provides:
+
+• Patient list sorted by risk level  
+• Real-time updates of new patient entries  
+• Historical trends and summaries of maternal and child health  
+• Visual charts for risk prediction patterns
+
+This allows clinicians to prioritize care for high-risk cases efficiently.
+
+### High-Risk Alerts
+
+When a patient is flagged as HIGH or CRITICAL risk:
+
+• The system automatically generates an alert notification to the clinician or community health worker.  
+• Notifications include:
+
+  - Patient ID (anonymized)  
+  - Risk score  
+  - Key contributing risk factors  
+  - Recommended action (e.g., immediate review, referral)
+
+### Example Workflow
+
+1. Health worker submits maternal patient data via app  
+2. AI model calculates risk score  
+3. Triage agent assigns risk category  
+4. Notification and alert are triggered  
+5. Dashboard displays real-time patient status  
+6. Clinician reviews and takes appropriate action
+
+### Benefits
+
+• Early detection of complications  
+• Rapid response for high-risk patients  
+• Scalable monitoring across multiple clinics  
+• Actionable AI guidance with explainable outputs
 
 The MaternalU5Triage AI system is designed for scalable deployment using cloud-based infrastructure and open-source collaboration.
 
