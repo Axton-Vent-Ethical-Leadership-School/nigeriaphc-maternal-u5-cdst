@@ -370,5 +370,75 @@ These safeguards ensure the system can be responsibly deployed in real-world hea
 │ • Clinician dashboard      │
 └───────────────────────────┘
 This architecture enables the MaternalU5Triage system to function as a real-time AI-powered maternal health triage assistant.
+## 7. Deployment & Open Source
+
+The MaternalU5Triage AI system is designed for scalable deployment using cloud-based infrastructure and open-source collaboration.
+
+### Cloud Deployment
+
+The system can be deployed using Google Cloud AI infrastructure to enable real-time maternal and child health risk predictions.
+
+Deployment architecture includes:
+
+• Cloud Storage – for datasets and trained models
+• Vertex AI – for model training and hosting
+• Cloud Run – for scalable prediction APIs
+• BigQuery – for analytics and health data monitoring
+
+Deployment workflow:
+
+1. Upload trained models to Cloud Storage
+2. Register the model in Vertex AI
+3. Deploy the model as an endpoint
+4. Connect the endpoint to the MaternalU5Triage application
+
+This enables clinicians or health systems to submit patient information and receive instant AI-assisted risk assessments.
+
+### Real-Time Prediction API
+
+The AI model is exposed through a REST API that allows external applications to request predictions.
+
+Example workflow:
+
+1. Patient data submitted via secure API
+2. Model processes risk indicators
+3. Risk prediction returned to clinical system
+4. High-risk cases flagged for immediate attention
+
+This design allows integration with:
+
+• Hospital electronic health systems
+• Mobile maternal health applications
+• Community health worker platforms
+
+### Open Source Collaboration
+
+To promote transparency, reproducibility, and global collaboration, the MaternalU5Triage AI system will be released as an open-source project.
+
+The following components will be publicly available:
+
+• Model training pipelines
+• Data preprocessing scripts
+• AI model architectures
+• Documentation and deployment guides
+
+Open-source release will support researchers, public health institutions, and healthcare innovators working to reduce maternal and under-five mortality.
+
+### Licensing
+
+The project will be released under an open-source license such as:
+
+MIT License or Apache 2.0 License
+
+This ensures that the technology can be freely used, modified, and improved by the global research community.
+
+### Global Health Impact
+
+By combining scalable cloud infrastructure with open-source accessibility, the MaternalU5Triage system aims to support:
+
+• Early detection of high-risk pregnancies
+• Improved triage for neonatal and child health
+• Data-driven public health decision-making
+• AI-enabled maternal care in low-resource environments
 
 
