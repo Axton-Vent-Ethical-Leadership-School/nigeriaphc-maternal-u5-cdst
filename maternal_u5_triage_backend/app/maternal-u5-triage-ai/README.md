@@ -284,7 +284,82 @@ MaternalU5Triage AI System Workflow
 │   Maternal/U5 risk alerts │
 │ • Integration with app    │
 └─────────┬─────────────────┘
-          │
+## 6. Ethics & Responsible AI
+
+The MaternalU5Triage AI system is designed according to responsible AI principles to ensure fairness, transparency, patient privacy, and safe clinical use.
+
+### Bias and Fairness Monitoring
+
+Machine learning models can unintentionally learn biases from training data. To mitigate this risk, the system performs bias checks across key demographic groups including:
+
+• Maternal age groups
+• Geographic location
+• Socioeconomic status
+• Ethnicity (when applicable)
+• Rural vs urban healthcare facilities
+
+Fairness metrics are evaluated to ensure that prediction accuracy does not disproportionately disadvantage any demographic group.
+
+If disparities are detected, model retraining and dataset balancing techniques are applied.
+
+### Privacy Protection
+
+Patient privacy is a critical requirement in medical AI systems.
+
+The MaternalU5Triage system follows privacy-preserving design principles:
+
+• No personally identifiable information (PII) is stored in model training datasets
+• Patient data is anonymized before processing
+• Secure cloud infrastructure protects health data access
+• Access controls restrict who can view sensitive data
+
+### Federated Learning Architecture
+
+To support collaboration across multiple hospitals while preserving patient privacy, the system can implement federated learning.
+
+In this approach:
+
+• Each hospital trains the AI model locally on its own data
+• Only model updates (not raw patient data) are shared
+• Updates are aggregated to improve the global model
+
+This approach reduces privacy risks while improving model performance across diverse populations.
+
+### Explainability and Transparency
+
+Clinical AI systems must provide interpretable reasoning for predictions.
+
+The MaternalU5Triage system incorporates explainable AI techniques to show:
+
+• Feature importance rankings
+• Key contributing risk factors
+• Interpretable summaries of predictions
+
+Example explanation:
+
+"High maternal risk predicted due to hypertension history, advanced maternal age, and anemia indicators."
+
+This transparency helps clinicians verify AI recommendations before taking medical action.
+
+### Clinical Oversight
+
+The system is designed as a clinical decision support tool rather than an autonomous decision-making system.
+
+Human healthcare professionals remain responsible for final medical decisions.
+
+AI predictions are presented as supportive guidance for triage prioritization.
+
+### Regulatory Alignment
+
+The design of the MaternalU5Triage system aligns with emerging global medical AI guidelines including:
+
+• Responsible AI principles
+• Ethical use of patient data
+• Transparent algorithmic decision-making
+• Human-in-the-loop healthcare AI systems
+
+These safeguards ensure the system can be responsibly deployed in real-world healthcare environments.
+        │
           ▼
 ┌───────────────────────────┐
 │ 8. Predictions & Alerts   │
