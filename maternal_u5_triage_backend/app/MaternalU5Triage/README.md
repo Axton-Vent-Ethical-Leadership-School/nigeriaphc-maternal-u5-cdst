@@ -70,7 +70,7 @@ MaternalU5Triage/
 - Anonymized data handling and ethical compliance  
 - Clear separation of backend and frontend  
 - Designed for future evaluation, scale-up, and ethical approval
-- ## 3. Training and Validation
+- ## Training and Validation
 
 The MaternalU5Triage AI system employs a rigorous model training and validation framework to ensure reliable prediction of maternal and under-five health risks. The framework uses standardized machine learning practices to reduce bias, prevent overfitting, and improve generalization across diverse populations.
 
