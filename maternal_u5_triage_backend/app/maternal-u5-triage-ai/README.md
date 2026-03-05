@@ -490,5 +490,76 @@ By combining scalable cloud infrastructure with open-source accessibility, the M
 • Improved triage for neonatal and child health
 • Data-driven public health decision-making
 • AI-enabled maternal care in low-resource environments
+## 9. Proposal Preparation for Google.org Submission
+
+The MaternalU5Triage AI project is ready for submission to the Google.org Impact Challenge: AI for Science. This section outlines key elements to highlight in the proposal.
+
+### Include Workflow Diagram
+
+The system workflow diagram visually demonstrates the end-to-end MaternalU5Triage AI process, from data collection to real-time clinical alerts.
+
+**Diagram Reference:** `docs/MaternalU5Triage_Workflow.png`
+
+Key components:
+
+1. **Data Sources**  
+   • Public health datasets  
+   • Clinical datasets  
+   • Genomic datasets  
+
+2. **Data Preprocessing & Feature Engineering**  
+   • Standardization  
+   • Risk factor extraction  
+   • Derived metrics (nutrition score, comorbidity index)  
+
+3. **AI Model Training**  
+   • Predictive models (Random Forest, Gradient Boosting)  
+   • Generative models for synthetic patient data  
+
+4. **Training & Validation**  
+   • Cross-validation  
+   • Metrics: AUROC, precision, recall, F1-score  
+
+5. **Integration of AI Agents**  
+   • Real-time triage  
+   • Explainable AI outputs  
+
+6. **Ethics & Responsible AI**  
+   • Bias monitoring  
+   • Federated learning  
+   • Transparency and regulatory compliance  
+
+7. **Deployment & Open Source**  
+   • Cloud-based API (Vertex AI / Cloud Run)  
+   • Open-source model and scripts  
+
+8. **Integration & Alerts**  
+   • Clinician dashboard  
+   • Risk notifications  
+   • High-risk alerts
+
+---
+
+### Key Highlights for the Proposal
+
+- **AI at the Core**  
+  The MaternalU5Triage system places AI at the center of decision-making, enabling predictive risk scoring and real-time triage support.
+
+- **Open-Source Datasets and Tools**  
+  All preprocessing scripts, trained models, and datasets will be made publicly available under an open-source license, promoting reproducibility and global collaboration.
+
+- **Predictive Impact for Maternal & Under-Five Health**  
+  • Early detection of high-risk pregnancies  
+  • Reduction of preventable maternal and child deaths  
+  • Actionable triage alerts for clinicians in real-time
+
+---
+
+### Next Steps for Proposal Submission
+
+1. Attach the workflow diagram: `docs/MaternalU5Triage_Workflow.png`  
+2. Summarize AI methodology, model evaluation, and agentic integration  
+3. Highlight responsible AI measures and federated learning approach  
+4. Emphasize open-source commitment and real-world clinical impact
 
 
