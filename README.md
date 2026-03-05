@@ -98,3 +98,99 @@ After preprocessing, datasets will be merged into a unified AI training dataset 
 - Clinical health indicators
 - Public health contextual data
 - Biological and genomic features
+- ## 2. Feature Engineering
+
+Feature engineering is a critical step in the development of the MaternalU5Triage AI system, as it transforms raw datasets into structured variables that can be used effectively by machine learning models to predict maternal and under-five health risks. The system will derive meaningful predictors from integrated public health, clinical, and biological datasets to improve the accuracy of AI-based triage and early warning systems.
+
+---
+
+### Identification of Key Risk Factors
+
+Key predictive variables will be extracted from the collected datasets based on established maternal and child health research. These variables represent known determinants of maternal complications, neonatal outcomes, and under-five mortality.
+
+**The main categories of risk factors include:**
+
+#### Maternal Demographic Factors
+- Maternal age
+- Parity (number of previous births)
+- Maternal education level
+- Household socioeconomic status
+- Geographic location (urban or rural)
+
+#### Pre-Existing Medical Conditions
+- Hypertension
+- Diabetes mellitus
+- Anemia
+- Obesity or malnutrition
+- Previous obstetric complications
+
+#### Pregnancy and Birth Complications
+- Preeclampsia or eclampsia
+- Gestational diabetes
+- Preterm labor
+- Prolonged labor
+- Cesarean delivery
+- Postpartum hemorrhage
+
+#### Neonatal and Child Health Indicators
+- Birth weight
+- Gestational age at delivery
+- Apgar score
+- Neonatal infections
+- Immunization status
+
+#### Environmental and Social Determinants
+- Air pollution exposure
+- Household sanitation conditions
+- Access to clean drinking water
+- Climate and seasonal factors
+- Distance to health facilities
+
+These variables form the core predictive features used by the MaternalU5Triage AI models.
+
+---
+
+### Generation of Derived Features
+
+In addition to raw variables, the system will compute derived features that capture complex interactions between health indicators and environmental conditions. Derived features improve model performance by summarizing multiple risk factors into meaningful indices.
+
+**Examples include:**
+
+#### Maternal Comorbidity Score
+A composite score representing the combined burden of maternal health conditions, calculated from variables such as:
+- Hypertension
+- Diabetes
+- Anemia
+- Previous pregnancy complications
+
+#### Maternal Nutrition Index
+An index calculated using indicators such as:
+- Body Mass Index (BMI)
+- Hemoglobin levels
+- Dietary diversity indicators
+- Micronutrient deficiencies
+
+#### Neonatal Risk Index
+A derived score combining early life indicators including:
+- Low birth weight
+- Premature birth
+- Neonatal infection markers
+- Apgar score
+
+#### Environmental Exposure Metrics
+Environmental risk indicators derived from geospatial and environmental datasets, including:
+- Air pollution levels (PM2.5 exposure)
+- Heat stress or extreme temperature exposure
+- Flood or climate vulnerability indicators
+
+---
+
+### Data Transformation for Machine Learning
+
+After generating raw and derived features, the following transformations will be applied:
+- Encoding categorical variables using label or one-hot encoding
+- Normalization of continuous variables
+- Feature scaling to improve model convergence
+- Removal of highly correlated or redundant variables
+
+The resulting feature dataset will be stored in the **features layer** of the cloud data pipeline, where it becomes the input for AI model training and evaluation.
