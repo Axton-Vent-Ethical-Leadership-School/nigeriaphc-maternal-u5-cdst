@@ -550,16 +550,45 @@ Key components:
 
 - **Predictive Impact for Maternal & Under-Five Health**  
   • Early detection of high-risk pregnancies  
-  • Reduction of preventable maternal and child deaths  
+  • Reduction of preventable maternal and child deaths
+  ## MaternalU5Triage AI System Workflow
+
+The MaternalU5Triage system integrates public health datasets, machine learning models, and agentic AI systems to detect high-risk maternal and under-five cases early.
+
+![MaternalU5Triage Workflow](docs/MaternalU5Triage_Workflow.png)
+
+### Workflow Overview
+
+1. **Data Collection**
+   - Public health datasets
+   - Clinical datasets
+   - Demographic datasets
+   - Environmental datasets
+
+2. **Data Preprocessing**
+   - Cleaning missing values
+   - Feature engineering
+   - Dataset normalization
+
+3. **Model Training**
+   - Random Forest
+   - Gradient Boosting
+   - Neural Networks
+
+4. **Validation**
+   - Cross-validation
+   - AUROC, Precision, Recall
+
+5. **Agentic AI Deployment**
+   - Real-time risk prediction
+   - Explainable AI outputs
+
+6. **Clinical Integration**
+   - Risk alerts
+   - Maternal dashboards
+   - High-risk patient triage
   • Actionable triage alerts for clinicians in real-time
 
 ---
-
-### Next Steps for Proposal Submission
-
-1. Attach the workflow diagram: `docs/MaternalU5Triage_Workflow.png`  
-2. Summarize AI methodology, model evaluation, and agentic integration  
-3. Highlight responsible AI measures and federated learning approach  
-4. Emphasize open-source commitment and real-world clinical impact
 
 
