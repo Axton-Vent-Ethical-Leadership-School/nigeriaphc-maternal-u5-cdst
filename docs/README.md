@@ -1,19 +1,16 @@
-## System Architecture
+ ## Mobile Application Interface
 
-The MaternalU5Triage AI system integrates mobile health data collection, machine learning prediction models, and scalable cloud infrastructure to support maternal and under-five health triage.
+### App Home Screen
+![App Home Screen](docs/app-home-screen.jpg)
 
-Architecture documentation:
+### Patient Data Entry
+![Patient Data Entry](docs/android-app-demo.jpg)
 
-- [System Architecture Documentation](docs/system_architecture.md)
+### AI Risk Prediction
+![AI Risk Result](docs/ai-risk-result.jpg)
 
-![MaternalU5Triage Workflow](docs/MaternalU5Triage_Workflow.png)
+### Clinical Triage Guidance
+![Triage Advice](docs/triage-advice-screen.jpg)
 
----
-
-## Android Application Interface
-
-The system includes a mobile application developed using Android Studio to enable frontline health workers to collect patient data and receive AI-assisted triage guidance.
-
-![Android App Demo](docs/android-app-demo.png)
-
-![Mobile Interface](docs/mobile-interface.png)
+### Development Environment
+![Android Development](docs/android-development-environment.jpg)
