@@ -209,6 +209,43 @@ The MaternalU5Triage system includes a mobile application used by frontline heal
 
 ### Development Environment
 ![Android Development](docs/android-development-environment.jpg)
+## Quick Demo Workflow
+
+The MaternalU5Triage system operates through a simple workflow designed for frontline health workers in primary healthcare facilities.
+
+1. **Health Worker Opens the Mobile App**
+   The MaternalU5Triage application is launched on an Android device.
+
+2. **Patient Data Entry**
+   Maternal and child health indicators such as age, symptoms, and vital signs are entered.
+
+3. **AI Risk Assessment**
+   Machine learning models analyze the data to detect possible maternal or child health risks.
+
+4. **Clinical Decision Support**
+   The system provides risk alerts and triage recommendations.
+
+5. **Referral or Immediate Care**
+   Health workers take appropriate action based on the AI-supported guidance.
+## Repository Structure
+
+```
+nigeriaphc-maternal-u5-cdst
+│
+├── README.md                     # Project overview
+├── models/                       # AI models
+├── scripts/                      # Data processing scripts
+├── data/                         # Sample datasets
+└── docs/                         # Documentation and system diagrams
+    ├── README.md
+    ├── system_architecture.md
+    ├── MaternalU5Triage_Workflow.png
+    ├── app-home-screen.jpg
+    ├── android-app-demo.jpg
+    ├── ai-risk-result.jpg
+    ├── triage-advice-screen.jpg
+    └── android-development-environment.jpg
+```
 
 - Normalization of continuous variables
 - Feature scaling to improve model convergence
