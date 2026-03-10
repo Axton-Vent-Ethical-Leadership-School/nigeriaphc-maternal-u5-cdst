@@ -189,6 +189,26 @@ Environmental risk indicators derived from geospatial and environmental datasets
 
 After generating raw and derived features, the following transformations will be applied:
 - Encoding categorical variables using label or one-hot encoding
+- ## Mobile Application Interface
+
+The MaternalU5Triage system includes a mobile application used by frontline health workers to collect maternal and child health data and receive AI-assisted triage guidance.
+
+### App Home Screen
+![App Home](docs/app-home-screen.png)
+
+### Patient Data Entry
+![Patient Data Entry](docs/android-app-demo.png)
+
+### AI Risk Prediction
+![AI Risk Result](docs/ai-risk-result.png)
+
+### Clinical Triage Guidance
+![Triage Advice](docs/triage-advice-screen.png)
+
+### Development Environment
+![Android Development](docs/android-development-environment.png)
+________________________________________
+
 - Normalization of continuous variables
 - Feature scaling to improve model convergence
 - Removal of highly correlated or redundant variables
