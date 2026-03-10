@@ -193,21 +193,22 @@ After generating raw and derived features, the following transformations will be
 
 The MaternalU5Triage system includes a mobile application used by frontline health workers to collect maternal and child health data and receive AI-assisted triage guidance.
 
+ ## Mobile Application Interface
+
 ### App Home Screen
-![App Home](docs/app-home-screen.png)
+![App Home Screen](docs/app-home-screen.jpg)
 
 ### Patient Data Entry
-![Patient Data Entry](docs/android-app-demo.png)
+![Patient Data Entry](docs/android-app-demo.jpg)
 
 ### AI Risk Prediction
-![AI Risk Result](docs/ai-risk-result.png)
+![AI Risk Result](docs/ai-risk-result.jpg)
 
 ### Clinical Triage Guidance
-![Triage Advice](docs/triage-advice-screen.png)
+![Triage Advice](docs/triage-advice-screen.jpg)
 
 ### Development Environment
-![Android Development](docs/android-development-environment.png)
-________________________________________
+![Android Development](docs/android-development-environment.jpg)
 
 - Normalization of continuous variables
 - Feature scaling to improve model convergence
