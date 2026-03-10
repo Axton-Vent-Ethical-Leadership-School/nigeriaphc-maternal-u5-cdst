@@ -198,13 +198,13 @@ The MaternalU5Triage system includes a mobile application used by frontline heal
 ### App Home Screen
 ![App Home Screen](docs/app-home-screen.jpg)
 
-### Patient Data Entry
+### Clinical Triage Guidance
 ![Patient Data Entry](docs/android-app-demo.jpg)
 
 ### AI Risk Prediction
 ![AI Risk Result](docs/ai-risk-result.jpg)
 
-### Clinical Triage Guidance
+### Patient Data Entry
 ![Triage Advice](docs/triage-advice-screen.jpg)
 
 ### Development Environment
