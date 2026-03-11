@@ -1,5 +1,32 @@
 # nigeriaphc-maternal-u5-cdst
 Android tablet CDST for maternal and under-5 triage in PHCs, with AI recommendations
+
+# Maternal & Under-5 Triage CDST
+## Overview
+Android tablet Clinical Decision Support Tool (CDST) for maternal and under-5 triage in primary health care centers (PHCs).
+
+Generates AI-assisted recommendations for:
+- Urgent referral
+- Monitoring
+- PHC management
+
+## Repository Structure
+/docs — project documentation  
+/android-app — Android project code  
+/backend-api — backend API code  
+
+## Team
+- Clinical advisor
+- Developers: Backend + Frontend
+- Academic partner: Axton-Vent Ethical Leadership School
+
+## Next Steps
+1. Set up Android Studio project
+2. Implement frontend screens using `frontend_specification.md`
+3. Begin retrospective data abstraction using `data_dictionary.md`
+4. Connect to backend API (dummy for testing)
+5. Iterative testing and pilot deployment
+
 ## 1. Data Collection & Preprocessing
 
 ### Data Collection
