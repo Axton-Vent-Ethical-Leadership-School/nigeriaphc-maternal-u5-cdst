@@ -219,7 +219,7 @@ After generating raw and derived features, the following transformations will be
 - ## Mobile Application Interface
 
 The MaternalU5Triage system includes a mobile application used by frontline health workers to collect maternal and child health data and receive AI-assisted triage guidance.
-
+![MaternalU5Triage Workflow](docs/MaternalU5Triage_Workflow.png) 
  ## Mobile Application Interface
 
 ### App Home Screen
