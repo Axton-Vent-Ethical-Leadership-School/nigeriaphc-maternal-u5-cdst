@@ -1,3 +1,4 @@
+![MaternalU5Triage Workflow](docs/MaternalU5Triage_Workflow.png)
  ## Mobile Application Interface
 
 ### App Home Screen
