@@ -18,7 +18,7 @@ Generates AI-assisted recommendations for:
 ## Team
 - Clinical advisor
 - Developers: Backend + Frontend
-- Jeremiah Ngene: Founder - Axton-Vent Initiatives For Ethics And Moral Values And Building Families LTD/GTE and Axton-Vent Ethical Leadership School.
+- Producer: Jeremiah Ngene: Founder - Axton-Vent Initiatives For Ethics And Moral Values And Building Families LTD/GTE and Axton-Vent Ethical Leadership School.
  
 ## 1. Data Collection & Preprocessing
 ### Data Collection
