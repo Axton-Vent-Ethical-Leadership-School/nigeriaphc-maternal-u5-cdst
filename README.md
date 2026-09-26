@@ -18,7 +18,7 @@ Generates AI-assisted recommendations for:
 ## Team
 - Clinical advisor
 - Developers: Backend + Frontend
-- Jeremiah Ngene - Academic partner: Axton-Vent Ethical Leadership School
+- Jeremiah Ngene - Axton-Vent Initiatives AVI
  
 ## 1. Data Collection & Preprocessing
 ### Data Collection
