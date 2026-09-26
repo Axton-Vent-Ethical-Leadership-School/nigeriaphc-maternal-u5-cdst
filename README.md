@@ -46,6 +46,7 @@ Population-level maternal and child health indicators will be obtained from inte
 These datasets will provide population-level predictors and contextual determinants of maternal and child health outcomes.
 
 Current Release field validation v1.3 from v1.0 clinical validation
+Ngene, J. (2026). MaternalU5Triage v1.0 Pilot 2024-2025: Clinical Validation in 12 PHCs Enugu State, Nigeria - Correct Triage and Referral Completion Outcomes (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.22936944
 ---
 #### Clinical Datasets
 Anonymized clinical datasets will be used to capture patient-level variables relevant to maternal and neonatal outcomes.
