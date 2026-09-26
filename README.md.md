@@ -20,7 +20,9 @@ Generates AI-assisted recommendations:
 ### Data & Ethics
 - No PHI in repo. All data de-identified per NDPR.
 - Ethics: Enugu State Health Research Ethics Committee (ESHEC/2024/011)
-- DHIS2 compatible — FHIR JSON export
+- DHIS2 compatible â€” FHIR JSON export
 
 ### License
 MIT License - Free for government adoption.
+
+Citation: Ngene, J. (2026). MaternalU5Triage v1.0 Pilot 2024-2025: Clinical Validation in 12 PHCs Enugu State, Nigeria - Correct Triage and Referral Completion Outcomes (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.22936944
