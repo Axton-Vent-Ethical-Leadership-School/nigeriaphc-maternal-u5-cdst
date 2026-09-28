@@ -47,7 +47,8 @@ These datasets will provide population-level predictors and contextual determina
 
 Current Release field validation v1.3 from v1.0 clinical validation.
 Citation:
-Ngene, J. (2026). MaternalU5Triage v1.0 Pilot 2024-2025: Clinical Validation in 12 PHCs Enugu State, Nigeria - Correct Triage and Referral Completion Outcomes (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.22936944 and Demand Registry: https://docs.google.com/spreadsheets/d/1-3BXMfXPU--t0ns9UUacAq9mTw_qZpznhe8C9M4KCNU/edit?gid=0#gid=0
+Ngene, J. (2026). MaternalU5Triage v1.0 Pilot 2024-2025: Clinical Validation in 12 PHCs Enugu State, Nigeria - Correct Triage and Referral Completion Outcomes (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.22936944 
+and Demand Registry: https://docs.google.com/spreadsheets/d/1-3BXMfXPU--t0ns9UUacAq9mTw_qZpznhe8C9M4KCNU/edit?gid=0#gid=0
 ---
 #### Clinical Datasets
 Anonymized clinical datasets will be used to capture patient-level variables relevant to maternal and neonatal outcomes.
@@ -225,7 +226,7 @@ Maternal & Under-5 Triage CDST v1.0 Android Clinical Decision Support Tool for P
 License: MIT 
 Status: Field Pilot Developed by: Axton-Vent Initiatives AVI + Enugu SPHCDA
 Funding: Pilot funded by Axton-Vent Initiatives AVI | Open source, no commercial dependencies
-Overview: Tablet-based triage tool for CHEWs at PHCs to standardize maternal and under-5 triage. Addresses high mortality from delayed referral (114/1000 under-5 mortality in Nigeria) (NBS, 2023).Generates AI-assisted recommendations:RED: Urgent referral YELLOW: Monitoring + re-assessment in 30 mins GREEN: PHC management Field Evidence (v1.0)12 PHCs in Enugu State, Nigeria (Oct 2024 - Mar 2025)12,340 encounters triaged (7,200 U5, 5,140 maternal)98.2% concordance with clinician gold standard (kappa 0.82)Referral time: Reduced from 48 mins to 12 mins
+Overview: Tablet-based triage tool for CHEWs at PHCs to standardize maternal and under-5 triage. Addresses high mortality from delayed referral (114/1000 under-5 mortality in Nigeria) (NBS, 2023).Generates AI-assisted recommendations:RED: Urgent referral YELLOW: Monitoring + re-assessment in 30 mins GREEN: PHC management Field Evidence (v1.0)12 PHCs in Enugu State, Nigeria (Jun 2024 - Aug 2025)12,340 encounters triaged (7,200 U5, 5,140 maternal)98.2% concordance with clinician gold standard (kappa 0.82)Referral time: Reduced from 48 mins to 12 mins
 Repository Structure
 /docs - Clinical protocol, data dictionary, SOPs
 /android-app - Android app (Kotlin, offline-first)
